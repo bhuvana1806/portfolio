@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   
+}
+
+header {
+    background:#f00db3;
+    color: #121112e4;
+    /* justify-content: right; */
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+#about{
+    
+    background-color: #e90eaf;
+    color: #0f0e0e;
+    
+}
+#journey{
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgb(213, 19, 184);
+}
+#home {
+    background: #f2eded;
+    /* background-image: url(/Portfolio/imgs/wp8526337-gaming-setups-wallpapers.jpg); */
+
+   
+}
+
+
+
+#internships .internship_1 {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #0e0d0d;
+    background-color: #ec09c6;
+    p{
+        font-size: 20px;
+        justify-content: center;
+    }
+  
+
+}
+/* .logo1{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: sta;
+} */
+
+#internships .internship_2 {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color:#ec09c6;
+    p{
+        font-size: 20px;
+        justify-content: center;
+    }
+}
+
+#internships .internship_3 {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color:#ec09c6;
+     p{
+        font-size: 20px;
+        justify-content: center;
+    }
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background: #e813c8;
+    color: #140e0f;
+    border: none;
+    cursor: pointer;
+}
+.social{
+    a{
+        padding-right: 2%;
+        
+    }
+}
+
+footer {
+    background: #ec9007;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
